@@ -12,33 +12,35 @@
   <body>
     <div class="project-content">
       <h1>World Clock</h1>
-      <select name="clock" id="">
+      <select name="clock" id="city-drop-down">
         <option value="">Select a city...</option>
-        <option value="">Chicago</option>
-        <option value="">Atlanta</option>
-        <option value="">Seattle</option>
-        <option value="">Nairobi</option>
+        <option value="America/Chicago">Chicago</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Europe/Amsterdam">Amsterdam</option>
+        <option value="Africa/Nairobi">Nairobi</option>
       </select>
-      <div class="city" id="new-york">
-        <div>
-          <h2>New York</h2>
-          <div class="date"></div>
+      <div id="cities-display">
+        <div class="city" id="new-york">
+          <div>
+            <h2>New York</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small>PM</small></div>
         </div>
-        <div class="time"><small>PM</small></div>
-      </div>
-      <div class="city" id="milan">
-        <div>
-          <h2>Milan</h2>
-          <div class="date"></div>
+        <div class="city" id="milan">
+          <div>
+            <h2>Milan</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small>PM</small></div>
         </div>
-        <div class="time"><small>PM</small></div>
-      </div>
-      <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo</h2>
-          <div class="date"></div>
+        <div class="city" id="tokyo">
+          <div>
+            <h2>Tokyo</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small>PM</small></div>
         </div>
-        <div class="time"><small>PM</small></div>
       </div>
     </div>
     <br />
