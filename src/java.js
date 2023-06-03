@@ -56,5 +56,8 @@ function updateCityDisplay(event) {
 updateTime;
 setInterval(updateTime, 1000);
 
+updateCityDisplay;
+setInterval(updateCityDisplay, 1000);
+
 let citiesSelectElement = document.querySelector("#city-drop-down");
 citiesSelectElement.addEventListener("change", updateCityDisplay);
